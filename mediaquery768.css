@@ -1,0 +1,448 @@
+ @media (max-width: 768px) {
+
+     html,
+     body {
+         overflow-x: hidden;
+     }
+
+     .hamburger {
+         display: block;
+     }
+
+     .delivery {
+         display: none;
+     }
+
+     .search-box {
+         display: none;
+     }
+
+     .right-section {
+         display: none;
+         flex-direction: column;
+         text-align: center;
+         position: absolute;
+         top: 40px;
+         left: 0px;
+         width: 90%;
+         height: 100%;
+         background: #e1d7d7;
+     }
+
+     .right-section.active {
+         display: block;
+     }
+
+     /* Bottom Navbar */
+
+     .menu-right {
+         display: none;
+     }
+
+     .menu-left {
+         display: flex;
+         width: 100%;
+         align-items: center;
+         justify-content: space-between;
+         gap: 40px;
+         font-size: 29px;
+     }
+
+     .hamburger2 {
+         display: flex;
+         justify-content: center;
+     }
+
+
+     .nav-links {
+         display: none;
+         flex-direction: column;
+         text-align: center;
+         position: absolute;
+         top: 100px;
+         left: 0px;
+         width: 90%;
+
+         background: #c68787;
+         cursor: pointer;
+     }
+
+     .nav-links.active {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+
+         position: absolute;
+         top: 00px;
+     }
+
+     .main-content {
+         display: block;
+         justify-content: start;
+         width: 100%;
+         height: max-content;
+         background-image: linear-gradient(rgba(255, 255, 255, 0.592), rgba(216, 211, 211, 0.956)), url('./assets/organic\ background.jpg');
+     }
+
+     .main-text {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-left: 10px;
+         padding: 20px;
+         gap: 20px;
+         width: 100%;
+         margin: 0px;
+     }
+
+     .main-text h3 {
+         font-size: 18px;
+         font-family: sans-serif;
+         color: #1be410;
+         font-weight: 600;
+         margin-top: 10px;
+
+     }
+
+     .main-text h1 {
+         font-size: 42px;
+         font-family: cinzel;
+         color: #000;
+         font-weight: 1900;
+         word-spacing: 2px;
+         padding-bottom: 50px;
+     }
+
+     .shop-now-btn {
+         justify-content: center;
+         align-items: center;
+         padding: 12px 50px;
+         background: linear-gradient(135deg, #006b12, #00c023);
+         color: #fff;
+         border: none;
+         border-radius: 20px;
+         font-size: 12px;
+         font-weight: 600;
+         cursor: pointer;
+     }
+
+     .main-image {
+         padding: 20px;
+         margin: auto;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .main-image img {
+         width: 50%;
+         height: 50%;
+         margin: auto;
+         display: block;
+     }
+
+
+     .container {
+         display: flex;
+         padding: 20px;
+         justify-content: center;
+         background-color: #fff;
+         height: max-content;
+         gap: 50px;
+     }
+
+     .item-box {
+         display: block;
+         justify-content: center;
+         align-items: center;
+         gap: 15px;
+         width: 100%;
+         margin: 10px;
+     }
+
+     .item-box img {
+         width: 45%;
+         height: 40%;
+         justify-content: center;
+         align-items: center;
+         margin-left: 10px;
+         display: block;
+         padding-bottom: 20px;
+     }
+
+     .item-box p {
+         margin: 0;
+         font-size: 14px;
+         line-height: 1.3;
+         color: #555;
+         font-weight: 750;
+
+     }
+
+     .header-row {
+
+         align-items: flex-start;
+         padding: 10px;
+         margin: 10px;
+     }
+
+     .sub-title {
+         font-size: 42px;
+         font-family: cinzel;
+         color: #333;
+         margin: 0;
+         padding: 0;
+         font-weight: 750;
+     }
+
+     .main-title {
+         font-size: 42px;
+         font-family: cinzel;
+         font-weight: 800;
+         color: #78B833;
+         margin: 0;
+         padding: 0;
+
+     }
+
+     .see-all-btn {
+         margin: 0px;
+     }
+
+     /* Card Container */
+     .card-container {
+         display: block;
+         height: 100%;
+         align-items: center;
+         padding: 0;
+
+     }
+
+     .category-card {
+         display: block;
+         margin: auto;
+         padding: 20px;
+         width: 60%;
+         height: 100%
+     }
+
+     .category-card img {
+         gap: 20px;
+         height: 50%;
+         width: 50%;
+     }
+
+     .category-card h3 {
+         font-size: 18px;
+     }
+
+     /* Offer Container*/
+
+     .offer-container {
+         display: flex;
+         margin: auto;
+         padding: 0;
+         width: 100%;
+         height: fit-content;
+     }
+
+     .offers {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+
+     }
+
+     .lft {
+         gap: 10px;
+     }
+
+     .heading {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         background-color: #fff;
+         padding: 40px 70px;
+     }
+
+     .card-section {
+         display: flex;
+         flex-wrap: wrap;
+         width: 100%;
+         height: max-content;
+
+     }
+
+     .card-block {
+         display: flex;
+         flex-wrap: wrap;
+         width: 100%;
+         gap: 50px;
+     }
+
+     .block1 {
+         justify-content: space-between;
+         padding: 10px
+     }
+
+     .block2 {
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: space-evenly;
+
+     }
+
+     .block3 {
+
+         justify-content: flex-end;
+         gap: 30px;
+         padding-right: 40px;
+     }
+
+     .about-us-section {
+         display: flex;
+         flex-direction: column-reverse;
+         justify-content: flex-start;
+         margin: auto;
+         padding: 20px;
+     }
+
+     .rightside-about-us {
+         width: 100%;
+     }
+
+     .rightside-about-us h1 {
+         font-size: 30px;
+     }
+
+     .rightside-about-us p {
+         font-size: medium;
+     }
+
+     .left-image img {
+         height: 300px;
+         width: 300px;
+     }
+
+     .heading-section h1 {
+         font-size: 30px;
+     }
+
+     .product-categories li {
+         font-size: 14px;
+     }
+
+     .container-block1 {
+         display: block;
+         height: max-content;
+     }
+
+     .certified {
+         margin: 0;
+         padding: 20px 0;
+         justify-content: space-evenly;
+     }
+
+     .satisfied img {
+         height: 40px;
+         width: 40px;
+     }
+
+     .satisfied h3 {
+         font-size: 16px;
+         padding-left: 15px;
+         font-weight: 600;
+         color: #fff;
+         line-height: 1;
+     }
+
+     .satisfied h3 span {
+         font-size: 10px;
+         font-family: serif;
+         font-weight: 600;
+         color: #fff;
+     }
+
+     .testimonial-container h3 {
+         font-size: 25px;
+
+     }
+
+     .download-app-container {
+         width: 100%;
+         height: 100%;
+         margin: auto;
+         padding: 0;
+         justify-content: center;
+
+     }
+
+     .mobile-image {
+         display: none;
+     }
+
+     .app-container {
+         width: 100%;
+         height: 100%;
+         margin: 0;
+         justify-content: center;
+         padding: 100px 20px;
+     }
+
+     .download-card {
+         display: block;
+         margin: 0;
+         padding: 0;
+         gap: 50px;
+
+     }
+
+     .download-card h3 {
+         font-size: 30px;
+         padding-bottom: 20px;
+
+     }
+
+     .download-card p {
+         font-size: 16px;
+         font-weight: 500;
+         padding-bottom: 25px;
+     }
+
+     .download-box {
+         padding-top: 30px;
+     }
+
+     .download-info {
+         padding: 5px 10px;
+     }
+
+     .download-info img {
+         width: 20px;
+         height: 20px;
+     }
+
+     .download-details h4 {
+         font-size: 8px;
+         font-weight: 500;
+     }
+
+     .download-details h1 {
+         font-size: 14px;
+     }
+
+     .news-block h2 {
+         padding-top: 30px;
+     }
+.brands-logo{
+ display: none;
+}
+ .row{
+    display: block;
+ }
+
+
+
+ }

@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicacy Organic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    
+
+    <script
+      src="https://kit.fontawesome.com/3a7ed4d419.js"
+      crossorigin="anonymous"
+    ></script>
+  
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Top Navbar -->
+
+      <div class="top-navbar">
+        <!--Logo-->
+        <div class="logo">
+          <div class="logo-icon">
+            <img src="./assets/logo.png" alt="logo" />
+          </div>
+          <div class="logo-text">
+            <h1>Delicacy</h1>
+            <span>Organic</span>
+          </div>
+        </div>
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">☰</div>
+
+        <!--Delivery -->
+        <div class="delivery">
+          <span>Delivery to</span>
+          <i class="fa-solid fa-location-dot"></i>
+          <strong>Sce 63, Noida, India...</strong>
+        </div>
+
+        <!--Search-->
+        <div class="search-box">
+          <input type="search" placeholder="What are you looking for?" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section" id="rightSection">
+          <div class="icon-btn">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+          <div class="icon-btn">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge">1</span>
+          </div>
+
+          <div class="cart">
+            <div class="cart-info">
+              <h3>My Cart</h3>
+              <p>$225.00</p>
+            </div>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+
+          <div class="user">
+            <img src="./assets/profile.jfif" alt="user" />
+            <span class="user-name">Suraj Maurya</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Navbar -->
+      <div class="bottom-navbar">
+        <div class="menu-left">
+          <div class="categories">
+            <i class="fa-solid fa-border-all" style="color: #4caf50"></i>
+            <form action="">
+              <label for="category-select">All Category</label>
+              <select name="category" id="category-select"></select>
+            </form>
+          </div>
+           <!-- Hamburger Icon -->
+        <div class="hamburger2" id="hamburger2">☰</div>
+
+          <div class="nav-links" id="navLinks">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Best Sales<span class="hot">Hot</span></a>
+            <a href="#">Promotions</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <!-- Right side -->
+        <div class="menu-right">
+          <div class="contact">
+            <i
+              class="fa-regular fa-headphones"
+              style="color: #ff8800; font-size: 20px"
+            ></i>
+            <span>(123) 8800-555</span>
+          </div>
+
+          <button class="gift-btn" type="button">
+            <i class="fa-solid fa-gift"></i>
+            Gift cards
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <section class="main-content">
+      <div class="main-text">
+        <h3>WE ARE DELICACY</h3>
+        <h1>
+          Choose delicacy <br />
+          the best healthy <br />
+          way to life
+        </h1>
+        <button class="shop-now-btn" type="button">
+          Shop now <span><i class="fa-regular fa-circle-right"></i></span>
+        </button>
+      </div>
+      <div class="main-image">
+        <img src="./assets/organic food.png" alt="organic food" />
+      </div>
+    </section>
+    <section class="container">
+      <!-- Item 1 -->
+      <div class="item-box">
+        <img src="./assets/icon1.png" alt="Farm icon" />
+
+        <p>Product from<br />organic farm</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="item-box">
+        <img src="./assets/icon2.png" alt="Delivery icon" />
+        <p>Free home<br />delivery</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="item-box">
+        <img src="./assets/icon3.png" alt="Promotion icon" />
+        <p>Promotion of<br />the week</p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="item-box">
+        <img src="./assets/icon4.png" alt="Discount icon" />
+        <p>-20% discount<br />on all vegetables</p>
+      </div>
+    </section>
+    <!-- Categorie -->
+    <section class="categorie">
+      <div class="header-row">
+        <div class="title-group">
+          <h2 class="sub-title">Browser Our Hottest</h2>
+          <h1 class="main-title">Categories</h1>
+        </div>
+        <a href="#" class="see-all-btn">See All <span class="arrow">→</span></a>
+      </div>
+
+      <div class="card-container">
+        <!-- Fruits -->
+        <div class="category-card" >
+          <img src="./assets/fruit.jfif" alt="Fruits" />
+          <h3>Fruits</h3>
+          <p>(22 Items)</p>
+        </div>
+
+        <!-- Vegetables (Active/Hover State) -->
+        <div class="category-card">
+          <div class="green-splash"></div>
+          <img src="./assets/vegetables.jfif" alt="Vegetables" />
+          <h3>Vegetables</h3>
+          <p>(22 Items)</p>
+        </div>
+
+        <!-- Drinks -->
+        <div class="category-card">
+          <img src="./assets/drinks.jfif" alt="Drinks" />
+          <h3>Drinks</h3>
+          <p>(22 Items)</p>
+        </div>
+
+        <!-- Fresh Nuts -->
+        <div class="category-card">
+          <img src="./assets/fresh nuts.jfif" alt="Fresh Nuts" />
+          <h3>Fresh Nuts</h3>
+          <p>(22 Items)</p>
+        </div>
+
+        <!-- Spices -->
+        <div class="category-card">
+          <img src="./assets/spices.jfif" alt="Spices" />
+          <h3>Spices</h3>
+          <p>(22 Items)</p>
+        </div>
+      </div>
+    </section>
+    <!--Container2 -->
+    <section class="offer-container">
+      <div class="offers" style="background-color: #77ba3a">
+        <div class="lft">
+          <h3>UPTO 20% OFF</h3>
+          <h1>Collected from Gardens</h1>
+          <a class="btn" href="#">See All</a>
+        </div>
+        <div class="rgt">
+          <img src="./assets/girlwithbowl.png" alt="Collected from Gardens" />
+        </div>
+      </div>
+      <div class="offers" style="background-color: #c0eb7b">
+        <div class="lft">
+          <h3>UPTO 20% OFF</h3>
+          <h1>Change your Diet Plan</h1>
+          <a class="btn" href="#">See All</a>
+        </div>
+        <div class="rgt">
+          <img src="./assets/diet.jfif" alt="Change your Diet Plan" />
+        </div>
+      </div>
+      <div class="offers" style="background-color: #e58129">
+        <div class="lft">
+          <h3>UPTO 30% OFF</h3>
+          <h1>Vegetables 100% Organic</h1>
+          <a class="btn" href="#">See All</a>
+        </div>
+        <div class="rgt">
+          <img src="./assets/juice.jfif" alt="Vegetables 100% Organic" />
+        </div>
+      </div>
+    </section>
+    <!-- heading -->
+    <section class="heading">
+      <div>
+        <h1>Best Selling Products</h1>
+      </div>
+      <div class="arrow-section">
+        <a href="#" class="left-arrow"
+          ><i class="fa-solid fa-arrow-left"></i
+        ></a>
+        <a href="#" class="right-arrow"
+          ><i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+    <section class="card-section">
+      <div class="card-block">
+        <div class="block1">
+          <div class="discountheart">
+            <img src="./assets/discount tag.PNG" alt="" />
+          </div>
+          <div>
+            <i class="fa-solid fa-heart" style="color: red"></i>
+          </div>
+        </div>
+        <div class="block2">
+          <div class="imagesize">
+            <img src="./assets/tomato.png" alt="" />
+          </div>
+          <div class="textsize">
+            <h3>VEGETABLES</h3>
+            <h1>
+              Farm fresh organic <br />
+              fruites 250g
+            </h1>
+            <p>$7.99<span>/kg</span></p>
+          </div>
+        </div>
+        <div class="block3">
+          <div class="quantity-control">
+            <button type="button">-</button>
+            <label for="">1</label>
+            <button type="button">+</button>
+          </div>
+          <div class="addtocart">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card-block">
+        <div class="block1">
+          <div class="discountheart">
+            <img src="./assets/discount tag.PNG" alt="" />
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="block2">
+          <div class="imagesize">
+            <img src="./assets/meat.png" alt="" />
+          </div>
+          <div class="textsize">
+            <h3>MEAT</h3>
+            <h1>Farm fresh organic meat 1kg</h1>
+            <p>$11.00<span>/kg</span></p>
+          </div>
+        </div>
+        <div class="block3">
+          <div class="quantity-control">
+            <button type="button">-</button>
+            <label for="">1</label>
+            <button type="button">+</button>
+          </div>
+          <div class="addtocart">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card-block">
+        <div class="block1">
+          <div class="discountheart">
+            <img src="./assets/discount tag.PNG" alt="" />
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="block2">
+          <div class="imagesize">
+            <img src="./assets/honey jar.png" alt="" />
+          </div>
+          <div class="textsize">
+            <h3>HONEY</h3>
+            <h1>Farm fresh organic honey 500g</h1>
+            <p>$11.00<span>/kg</span></p>
+          </div>
+        </div>
+        <div class="block3">
+          <div class="quantity-control">
+            <button type="button">-</button>
+            <label for="">1</label>
+            <button type="button">+</button>
+          </div>
+          <div class="addtocart">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card-block">
+        <div class="block1">
+          <div class="discountheart">
+            <img src="./assets/discount tag.PNG" alt="" />
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="block2">
+          <div class="imagesize">
+            <img src="./assets/orange.png" alt="" />
+          </div>
+          <div class="textsize">
+            <h3>ORANGE</h3>
+            <h1>Farm fresh organic orange 500g</h1>
+            <p>$11.00<span>/kg</span></p>
+          </div>
+        </div>
+        <div class="block3">
+          <div class="quantity-control">
+            <button type="button">-</button>
+            <label for="">1</label>
+            <button type="button">+</button>
+          </div>
+          <div class="addtocart">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us-section">
+      <div class="left-image">
+        <img src="./assets/vegtable2.png" alt="" />
+      </div>
+      <div class="rightside-about-us">
+        <h4>ABOUT US</h4>
+        <h1>We Believe In Working With<br />Accredited Farmers</h1>
+        <p>
+          Organic Foods And Cafe Is A Family Run Company That Runs Organic Super
+          Markets And Cafes Selling Fresh Organic And Biodynamic Food, Supplers,
+          Skincare, Cosmetics, Baby Item And Household Cleaning Products. We
+          Have 5 Shops in Dubai - On Sheikh Zayed Road.
+        </p>
+        <button>
+          <a href="#">Learn More</a>
+          <i class="fa-solid fa-arrow-right"> </i>
+        </button>
+      </div>
+    </section>
+    <section class="product-cards">
+      <div class="heading-section">
+        <h1>Most Popular <span>Products</span></h1>
+        <ul class="product-categories">
+          <li class="active">All</li>
+          <li>Vegetables</li>
+          <li>Meat</li>
+          <li>Drinks</li>
+        </ul>
+      </div>
+    </section>
+    <section class="cards-container-block">
+      <div class="container-block1">
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-solid fa-heart" style="color: red"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-block1">
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-solid fa-heart" style="color: red"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/meat.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>Meat</h3>
+              <h1>Farm fresh organic meat 1kg</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-block">
+          <div class="block1">
+            <div class="discountheart">
+              <img src="./assets/discount tag.PNG" alt="" />
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="block2">
+            <div class="imagesize">
+              <img src="./assets/honey jar.png" alt="" />
+            </div>
+            <div class="textsize">
+              <h3>HONEY</h3>
+              <h1>Farm fresh organic honey 500g</h1>
+              <p>$11.00<span>/kg</span></p>
+            </div>
+          </div>
+          <div class="block3">
+            <div class="quantity-control">
+              <button type="button">-</button>
+              <label for="">1</label>
+              <button type="button">+</button>
+            </div>
+            <div class="addtocart">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="certified">
+      <div class="satisfied">
+        <img src="./assets/satisfied customer.jpg" alt="satsified customer" />
+        <h3>1,800+ <br /><span>Staisfied Clients</span></h3>
+      </div>
+      <div class="satisfied">
+        <img src="./assets/hand holding box.jpg" alt="hand holding box" />
+        <h3>362+ <br /><span>Active Products</span></h3>
+      </div>
+      <div class="satisfied">
+        <img src="./assets/organic leaf.png" alt="organic leaf" />
+        <h3>30+ <br /><span>Food Categories</span></h3>
+      </div>
+      <div class="satisfied">
+        <img src="./assets/award wining.png" alt="award winning" />
+        <h3>1,800+ <br /><span>Awards Wining</span></h3>
+      </div>
+    </section>
+    <!--testimonial section-->
+    <section class="testimonial-container">
+      <h3>Why Customer Love US ?</h3>
+      <div class="card-wrapper">
+        <!--Card 1-->
+        <div class="card">
+          <div class="quotes-icon">“</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            "This plugin is amazing with the current version , I can't imagine
+            it, how cool will it be when you finish the all"
+          </p>
+          <div class="user-info">
+            <img src="./assets/testimonial image1.jpg" alt="user1" />
+            <div class="user-details">
+              <h4>Michele Smith</h4>
+              <p>CDO at Weblabx</p>
+            </div>
+          </div>
+        </div>
+        <!--Card 2-->
+        <div class="card">
+          <div class="quotes-icon">“</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            "This plugin is amazing with the current version , I can't imagine
+            it, how cool will it be when you finish the all"
+          </p>
+          <div class="user-info">
+            <img src="./assets/testimonial image2.jpg" alt="user2" />
+            <div class="user-details">
+              <h4>David Andersin</h4>
+              <p>CEO at SoftwareGix</p>
+            </div>
+          </div>
+        </div>
+        <!--Card 3-->
+        <div class="card">
+          <div class="quotes-icon">“</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            "This plugin is amazing with the current version , I can't imagine
+            it, how cool will it be when you finish the all"
+          </p>
+          <div class="user-info">
+            <img src="./assets/testimonial image3.jpg" alt="user3" />
+            <div class="user-details">
+              <h4>Michele Smith</h4>
+              <p>CDO at Amazon.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="download-app-container">
+      <div class="app-container">
+        <div class="download-card">
+          <h3>
+            Download Delicacy <br />
+            Mobile App
+          </h3>
+          <p>
+            This plugin is amazing with the current version, imagine <br />
+            it, how cool will it be when you finish the all
+          </p>
+          <div class="download-box">
+            <div class="download-info">
+              <img src="./assets/apple.png" alt="apple" />
+              <div class="download-details">
+                <h4>Download on the</h4>
+                <h1>App Store</h1>
+              </div>
+            </div>
+            <div class="download-info">
+              <img src="./assets/android.png" alt="android" />
+              <div class="download-details">
+                <h4>ANDROID APP ON</h4>
+                <h1>Google Play</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-image">
+          <img src="./assets/mobile.png" alt="mobile" />
+        </div>
+      </div>
+    </section>
+    <section class="news-block">
+      <h2>Latest News & Blogs</h2>
+      <div class="carousel-container">
+        <div class="blog-wrapper">
+          <article class="blog-card">
+            <div class="card-image">
+              <img src="./assets/africa.jfif" alt="" />
+            </div>
+            <div class="card-content">
+              <div class="news-info">
+                <span>👤 By Daniel</span>
+                <span>|| Aug 07, 2020</span>
+              </div>
+              <h3>What You Should know About Detox</h3>
+              <div class="card-footer">
+                <a href="#" class="read-more">Read More ></a>
+                <span class="comments">💬 03</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="blog-wrapper">
+          <article class="blog-card">
+            <div class="card-image">
+              <img src="./assets/africa.jfif" alt="" />
+            </div>
+            <div class="card-content">
+              <div class="news-info">
+                <span>👤 By Josh</span>
+                <span> || Aug 07, 2020</span>
+              </div>
+              <h3>Pizza With Chicken, Of Tomatoes And Basil</h3>
+              <div class="card-footer">
+                <a href="#" class="read-more">Read More ></a>
+                <span class="comments">💬 03</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="blog-wrapper">
+          <article class="blog-card">
+            <div class="card-image">
+              <img src="./assets/africa.jfif" alt="" />
+            </div>
+            <div class="card-content">
+              <div class="news-info">
+                <span>👤 By Daniel</span>
+                <span>|| Aug 07, 2020</span>
+              </div>
+              <h3>5 Reasons You Must Eat Greens Everyday</h3>
+              <div class="card-footer">
+                <a href="#" class="read-more">Read More ></a>
+                <span class="comments">💬 03</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="brands-logo">
+      <img src="./assets/organic logo.jpg" alt="organic" />
+      <img src="./assets/bio.jpg" alt="bio" />
+      <img src="./assets/eco.jpg" alt="eco" />
+      <img src="./assets/vegon.jpg" alt="vegan" />
+      <img src="./assets/nature.png" alt="nature" />
+      <img src="./assets/fresh.jpg" alt="fresh" />
+    </section>
+    <footer>
+      <div class="footer-main">
+        <div class="row">
+          <div class="col">
+            <div class="logo-section">
+              <img src="./assets/logo.png" alt="logo" />
+              <div>
+                <h2>Delicacy</h2>
+                <h3>Orgaic</h3>
+              </div>
+            </div>
+            <p>
+              GymVast , 18 East 50th Street, 4th <br />
+              Floor, New York, NY 10022
+            </p>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google-plus"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="#">Fruits & Vegetables</a></li>
+              <li><a href="#">Dairy Products</a></li>
+              <li><a href="#">Package Foods</a></li>
+              <li><a href="#">Bevarage</a></li>
+              <li><a href="#">Bevarage</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Userful Link</h3>
+            <ul>
+              <li><a href="#">Payment & Tax</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Discount</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Newsletter</h3>
+            <p>
+              Get now free 20% discount for all products on your first order
+            </p>
+            <form class="form-email">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Enter your email id " />
+              <button type="submit" title="Subscribe">
+                <i class="fa-solid fa-right-long"></i>
+              </button>
+            </form>
+            <p>T: +1-202-555-0184</p>
+            <p>E: hello@fisinostore.co.uk</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <p>© 2026 Delicacy Store</p>
+        <div class="terms-condition">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Cookies/Ad Choices</a>
+        </div>
+
+        <div class="payment-card">
+          <img src="./assets/mastercard.png" alt="" />
+          <img src="./assets/visacard.png" alt="" />
+          <img src="./assets/bitcoincard.jpg" alt="" />
+          <img src="./assets/paypalcard.png" alt="" />
+          <img src="./assets/Rupaycard.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+  
+   const hamburger = document.getElementById("hamburger");
+    const rightSection = document.getElementById("rightSection");
+
+    // Open & Close Menu
+    hamburger.addEventListener("click", () => {
+      rightSection.classList.toggle("active");
+
+      // Change icon
+      if(rightSection.classList.contains("active")){
+        hamburger.innerHTML = "✖";
+      } else {
+        hamburger.innerHTML = "☰";
+      }
+    });
+
+    // Close menu when clicking any menu item
+    const navItems = document.querySelectorAll(".right-section a");
+
+    navItems.forEach(item => {
+      item.addEventListener("click", () => {
+        rightSection.classList.remove("active");
+        hamburger.innerHTML = "☰";
+      });
+    });
+
+
+     const hamburger2 = document.getElementById("hamburger2");
+    const navLinks = document.getElementById("navLinks");
+
+    // Open & Close Menu
+   hamburger2.addEventListener("click", () => {
+     navLinks.classList.toggle("active");
+
+      // Change icon
+      if(navLinks.classList.contains("active")){
+        hamburger2.innerHTML = "✖";
+      } else {
+        hamburger2.innerHTML = "☰";
+      }
+    });
+
+    // Close menu when clicking any menu item
+    const navItemss = document.querySelectorAll(".nav-links a");
+
+    navItemss.forEach(item => {
+      item.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+        hamburger2.innerHTML = "☰";
+      });
+    });
+
+
+      </script>
+</html>
